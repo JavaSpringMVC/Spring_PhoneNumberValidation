@@ -35,7 +35,7 @@ public class PhoneNumber implements Validator {
             errors.rejectValue("number", "number.startsWith");
         }
         if (!number.matches("(^$|[0-9]*$)")){
-            errors.rejectValue("nuber", "number.matches");
+            errors.rejectValue("number", "number.matches");
         }
     }
 }
